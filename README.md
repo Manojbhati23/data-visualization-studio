@@ -103,7 +103,7 @@ data-visualization-studio/
 Clone the repository:
 
 ```bash
-git clone https://github.com/Manojbhati23
+git clone [https://github.com/Manojbhati23](https://github.com/Manojbhati23/data-visualization-studio)
 
 cd data-visualization-studio
 ```
