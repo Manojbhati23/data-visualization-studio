@@ -14,18 +14,23 @@ profit = [2,4,6,8,10]
 ## Solution
 
 ```python
-import matplotlib.pyplot as plt
+ import matplotlib.pyplot as plt
+import numpy as np
 
-x = [1,2,3,4,5]
+#Multiple Lines on Same Plot
+x=[1,2,3,4,5]
 
-sales = [10,20,30,40,50]
-profit = [2,4,6,8,10]
+sales=[11,44,22,19,50]
+profit=[3,20,10,9,32]
 
 plt.plot(x, sales)
 plt.plot(x, profit)
 
+plt.title("Multipleline on same plot")
+plt.xlabel("Profit")
+plt.ylabel("Sales")
+ 
 plt.show()
-```
 
 ## Output
 
